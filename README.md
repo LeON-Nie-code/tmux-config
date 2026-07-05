@@ -4,10 +4,18 @@ Personal tmux configuration with TPM plugins, mouse-pane selection, clipboard co
 
 ## Install
 
-Install tmux first, then run:
+Install tmux first, then run one command:
 
 ```sh
-git clone <your-repo-url> ~/.config/tmux-config
+curl -fsSL https://raw.githubusercontent.com/LeON-Nie-code/tmux-config/main/install.sh | sh
+```
+
+This clones or updates the repo at `~/.config/tmux-config`, then runs the local installer.
+
+Manual install:
+
+```sh
+git clone https://github.com/LeON-Nie-code/tmux-config.git ~/.config/tmux-config
 ~/.config/tmux-config/scripts/install.sh
 ```
 
@@ -59,6 +67,12 @@ sudo apt install wl-clipboard
 cd ~/.config/tmux-config
 git pull
 scripts/install.sh
+```
+
+Or run the one-command installer again:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/LeON-Nie-code/tmux-config/main/install.sh | sh
 ```
 
 Inside tmux, reload manually with:
