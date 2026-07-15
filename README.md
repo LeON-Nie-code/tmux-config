@@ -1,6 +1,6 @@
 # tmux config
 
-Personal tmux configuration with TPM plugins, mouse-pane selection, clipboard copy on mouse release, Catppuccin theme, and session restore.
+Personal tmux configuration with TPM plugins, mouse-pane selection, clipboard copy on mouse release, Catppuccin theme, and session restore. Mouse copying keeps the current copy-mode scroll position instead of jumping to the pane bottom.
 
 ## Install
 
